@@ -12,7 +12,7 @@ workspace "Kareeem"
 
 outputdir = "%{cfg.buildcfg}"
 
-startproject "Client"
+startproject "AtmegaSim"
 
 IncludeDir = {}
 IncludeDir["GLFW"] = "%{wks.location}/Vendor/GLFW/include"
@@ -21,8 +21,8 @@ IncludeDir["ImGUI"] = "%{wks.location}/Vendor/ImGUI"
 IncludeDir["spdlog"] = "%{wks.location}/Vendor/spdlog/include"
 IncludeDir["glm"] = "%{wks.location}/Vendor/glm"
 
-project "Client"
-    location "Client"
+project "AtmegaSim"
+    location "AtmegaSim"
     language  "C++"
     cppdialect  "C++20"
     systemversion "latest"
